@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<locale.h>
 #include<math.h>
-//Cubo de um número
+//Cubo de um nÃºmero
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	int n, x;
-	printf("Digite um número: \n");
+	printf("Digite um nÃºmero: \n");
 	scanf("%i", &n);
 	x = pow(n, 3);
-	printf("O cubo de %i é: %i. \n", n, x);
+	printf("O cubo de %i Ã©: %i. \n", n, x);
 	return(0);
 }
