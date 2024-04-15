@@ -1,5 +1,5 @@
 #include<stdio.h>
-//Formas de exibição (Hello, World!)
+//Formas de exibiÃ§Ã£o (Hello, World!)
 int main(){
 	printf("Hello, World!\n");
 	printf("Hello,\nWorld!\n");
