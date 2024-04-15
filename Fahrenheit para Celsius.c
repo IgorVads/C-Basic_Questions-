@@ -7,6 +7,6 @@ int main(){
 	printf("Digite a temperatura em Fahrenheit: \n");
 	scanf("%f", &f);
 	c = (f - 32) / 1.8;
-	printf("A temperatura convertida para Celsius é: %.1f. \n", c);
+	printf("A temperatura convertida para Celsius Ã©: %.1f. \n", c);
 	return(0);
 }
