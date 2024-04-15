@@ -1,15 +1,16 @@
 #include<stdio.h>
 #include<locale.h>
 #include<math.h>
-//C·lculo do IMC de uma pessoa
+//C√°lculo do IMC de uma pessoa
 int main(){
 	setlocale(LC_ALL, "Portuguese");
 	float imc, a, p;
+	//Solicitando o peso e a altura do usu√°rio
 	printf("Informe seu peso: \n");
 	scanf("%f", &p);
 	printf("Informe sua altura: \n");
 	scanf("%f", &a);
 	imc = p / pow(a , 2);
-	printf("Seu IMC È %.1f. \n", imc);
+	printf("Seu IMC √© %.1f. \n", imc);
 	return(0);
 }
